@@ -1,0 +1,94 @@
+
+
+header{ font-size: 24px;
+font-weight: 700;
+text-decoration: underline;
+}
+
+body {
+  font-family: Arial, sans-serif;
+}
+
+nav ul {
+  list-style-type: none;
+  display: flex;
+  justify-content: space-around;
+}
+
+nav a {
+  text-decoration: none;
+  color: #000;
+}
+
+
+
+.cards {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  gap: 30px;
+  padding: 20px;
+}
+
+.cards .card {
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.5);
+  transition: 0.3s;
+  width: 40%;
+  align-items: center;
+  text-align: center;
+  padding: 20px;
+}
+.cards .card a{
+  text-decoration: none;
+  color: #000;
+  text-decoration: underline;
+}
+
+.cards .card button{
+  border-radius: 30px;
+  
+}
+
+.cards .card:hover {
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+}
+
+.produtos {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+ 
+}
+
+footer{ text-align: center;
+padding: 85PX;
+font-size: 15PX;
+}
+table{
+  background-color: rgb(190, 7, 7);
+  border:0;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  font-size: 24PX;
+  padding: 30px;
+  display: flex;
+  color: #fff;
+  border: 0.3vh solid black;
+  font-size: 3vh;
+  text-align: center;
+ 
+
+  
+}
+.cards .card img{
+
+  width: 213px;
+  height: 177px;
+}
+
+footer{
+  font-size: 24px;
+  text-decoration: underline;
+ 
+}
